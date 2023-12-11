@@ -89,6 +89,8 @@ The released model achieves better performance than the paper version.
 | GALIP(paper)     | 5.85      | 0.3338     | 12.54      |
 | GALIP(released)  | **5.01**  | **0.3379** | **12.54**  |
 
+### Screenshot of the start of training
+![Alt text](Screenshot_Training.png)
 
 ## Sampling
   
@@ -109,8 +111,11 @@ If you find GALIP useful in your research, please consider citing our paper:
 }
 
 ```
+
 The code is released for academic research use only. For commercial use, please contact Ming Tao (陶明) (mingtao2000@126.com).
 
 
 **Reference**
 - [DF-GAN: A Simple and Effective Baseline for Text-to-Image Synthesis](https://arxiv.org/abs/2008.05865) [[code]](https://github.com/tobran/DF-GAN)
+
+
