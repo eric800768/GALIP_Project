@@ -6,7 +6,7 @@ multi_gpus=True
 mixed_precision=True
 
 nodes=1
-num_workers=8
+num_workers=1
 master_port=11277
 stamp=gpu${nodes}MP_${mixed_precision}
 
