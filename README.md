@@ -3,7 +3,7 @@
 # GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis (CVPR 2023)
 
 
-# A high-quality, fast, and efficient text-to-image model
+## A high-quality, fast, and efficient text-to-image model
 
 Official Pytorch implementation for our paper [GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis](https://arxiv.org/abs/2301.12959) by [Ming Tao](https://scholar.google.com/citations?user=5GlOlNUAAAAJ), [Bing-Kun Bao](https://scholar.google.com/citations?user=lDppvmoAAAAJ&hl=en), [Hao Tang](https://scholar.google.com/citations?user=9zJkeEMAAAAJ&hl=en), [Changsheng Xu](https://scholar.google.com/citations?user=hI9NRDkAAAAJ). 
 
@@ -11,9 +11,7 @@ Official Pytorch implementation for our paper [GALIP: Generative Adversarial CLI
 - python 3.9
 - Pytorch 1.9
 - At least 1x24GB 3090 GPU (for training)
-- Only CPU (for sampling) 
 
-GALIP is a small and fast generative model which can generate multiple pictures in one second even on the CPU.
 ## Installation
 
 Clone this repo.
@@ -53,12 +51,6 @@ Our code supports automate FID evaluation during training, the results are store
   ```
 set **pretrained_model** in test.sh
 - For bird dataset: `bash scripts/test.sh ./cfg/birds.yml`
-
-
-### Performance
-The released model achieves better performance than the paper version.
-
-
 
 ### Screenshot of the start of training
 ![Alt text](Screenshot_Training.png)
