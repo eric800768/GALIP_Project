@@ -41,6 +41,8 @@ Our code supports automate FID evaluation during training, the results are store
 
   - For bird dataset: `tensorboard --logdir=./code/logs/bird/train --port 8166`
 
+### Screenshot of the start of training
+![Alt text](Screenshot_Training.png)
 
 ## Evaluation
 
@@ -52,8 +54,7 @@ Our code supports automate FID evaluation during training, the results are store
 set **pretrained_model** in test.sh
 - For bird dataset: `bash scripts/test.sh ./cfg/birds.yml`
 
-### Screenshot of the start of training
-![Alt text](Screenshot_Training.png)
+
 
 ### Citing GALIP
 
